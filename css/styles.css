@@ -13,11 +13,8 @@
 }
 
 .button {
-    font-family: Raleway;
+    font: 300 20px/27px Raleway;
     color: #ffffff;
-    font-size: 20px;
-    font-weight: 300;
-    line-height: 27px;
 }
 
 .no-border-outline {
@@ -46,13 +43,6 @@
     margin-bottom: 224px;
 }
 
-.header__logo {
-    font-family: Pacifico;
-    font-size: 50px;
-    font-weight: 400;
-    line-height: 25px;
-}
-
 .nav {
     padding: 0;
     list-style: none;
@@ -62,10 +52,7 @@
 }
 
 .nav__item {
-    font-family: Raleway;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 25px;
+    font: 700 16px/25px Raleway;
     border-top: 3px solid transparent;
 }
 
@@ -84,17 +71,11 @@
 }
 
 .header__heading {
-    font-family: Raleway;
-    font-size: 60px;
-    font-weight: 800;
-    line-height: 25px;
+    font: 800 60px/25px Raleway;
 }
 
 .header__info {
-    font-family: Raleway;
-    font-size: 17px;
-    font-weight: 300;
-    line-height: 27px;
+    font: 300 17px/27px Raleway;
     margin-bottom: 25px;
 }
 
@@ -137,18 +118,12 @@
 }
 
 .about__heading {
-    font-family: Raleway;
-    font-size: 90px;
-    font-weight: 700;
-    line-height: 27px;
+    font: 700 90px/27px Raleway;
     margin: 0 0 48px 0;
 }
 
 .about__info {
-    font-family: Raleway;
-    font-size: 17px;
-    font-weight: 300;
-    line-height: 27px;
+    font: 300 17px/27px Raleway;
     width: 499px;
 }
 
@@ -196,11 +171,8 @@
 }
 
 .service__name {
-    font-family: Raleway;
+    font: 700 20px/27px Raleway;
     color: #262626;
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 27px;
     flex: 3 1 0;
     align-self: center;
 }
@@ -215,7 +187,7 @@
 
 .services-img__wrap {
     display: flex;
-    background: url(..//img/tomato.png) 100% no-repeat;
+    background: url("..//img/tomato.png") 100% no-repeat;
     flex-grow: 1;
     align-items: center;
     justify-content: flex-end;
@@ -223,12 +195,8 @@
 }
 
 .services__heading {
-    font-family: Raleway;
+    font: 700 90px/27px Raleway;
     color:  #ffffff;
-    font-size: 90px;
-    font-weight: 700;
-    line-height: 27px;
-    
 }
 
 .services__img {
@@ -255,18 +223,12 @@
 }
 
 .gallery__heading {
-    font-family: Raleway;
-    font-size: 90px;
-    font-weight: 700;
-    line-height: 27px;
+    font: 700 90px/27px Raleway;
     margin-top: 0;
 }
 
 .gallery__info {
-    font-family: Raleway;
-    font-size: 17px;
-    font-weight: 300;
-    line-height: 27px;
+    font: 300 17px/27px Raleway;
     margin-bottom: 0;
 }
 
@@ -313,18 +275,12 @@
 }
 
 .subscribe__heading {
-    font-family: Raleway;
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 27px;
+    font: 700 40px/27px Raleway;
     margin-top: 0;
 }
 
 .subscribe__info {
-    font-family: Raleway;
-    font-size: 16px;
-    font-weight: 300;
-    line-height: 27px;
+    font: 300 16px/27px Raleway;
     width: 541px;
     margin-bottom: 28px;
 }
@@ -375,17 +331,11 @@
 
 .blog__heading {
     margin-top: 0;
-    font-family: Raleway;
-    font-size: 90px;
-    font-weight: 700;
-    line-height: 25px;
+    font: 700 90px/25px Raleway;
 }
 
 .blog__info {
-    font-family: Raleway;
-    font-size: 17px;
-    font-weight: 300;
-    line-height: 25px;
+    font: 300 17px/25px Raleway;
     margin-bottom: 0;
 }
 
@@ -436,10 +386,7 @@
 }
 
 .date {
-    font-family: Raleway;
-    font-size: 29px;
-    font-weight: 700;
-    line-height: 25px;
+    font: 700 29px/25px Raleway;
     margin: auto;
     font-variant: small-caps;
 }
@@ -452,22 +399,16 @@
 }
 
 .article__heading {
-    font-family: Raleway;
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 25px;
+    font: 700 20px/25px Raleway;
     margin-bottom: 12px;
 }
 
 .article__author {
-    font-family: Raleway;
-    font-size: 13px;
-    font-weight: 300;
-    line-height: 25px;
+    font: 300 13px/25px Raleway;
 }
 
 .footer__upper {
-    background: url(../img/contact_bg.jpg) no-repeat;
+    background: url("../img/contact_bg.jpg") no-repeat;
     background-size: cover;
     color: #262626;
     padding: 119px 0 122px;
@@ -482,20 +423,14 @@
 }
 
 .footer__heading {
-    font-family: Raleway;
-    font-size: 90px;
-    font-weight: 700;
-    line-height: 25px;
+    font: 700 90px/25px Raleway;
     text-align: center;
     margin-top: 0;
     margin-bottom: 20px;
 }
 
 .footer__info {
-    font-family: Raleway;
-    font-size: 17px;
-    font-weight: 300;
-    line-height: 25px;
+    font: 300 17px/25px Raleway;
     text-align: center;
     width: 348px;
     margin: 0;
@@ -511,10 +446,6 @@
     color: rgba(255, 255, 255, 0.5);
 }
 
-.fildset {
-
-}
-
 .fildset__wrap {
     display: flex;
     flex-direction: column;
@@ -526,11 +457,8 @@
     background-color: rgba(0, 196, 196, 0.5);
     width: 500px;
     height: 50px;
-    font-family: Raleway;
     color: #ffffff;
-    font-size: 15px;
-    font-weight: 300;
-    line-height: 25px;
+    font: 300 15px/25px Raleway;
     box-sizing: border-box;
     padding: 0 20px;
 }
@@ -561,17 +489,11 @@
 
 .contacts__type {
     display: block;
-    font-family: Raleway;
-    font-size: 17px;
-    font-weight: 700;
-    line-height: 15px;
+    font: 700 17px/15px Raleway;
 }
 
 .contacts__value {
-    font-family: Raleway;
-    font-size: 20px;
-    font-weight: 300;
-    line-height: 35px;
+    font: 300 20px/35px Raleway;
 }
 
 .footer__bottom {
@@ -587,10 +509,7 @@
 }
 
 .copyrght {
-    font-family: Raleway;
-    font-size: 16px;
-    font-weight: 300;
-    line-height: 25px;
+    font: 300 16px/25px Raleway;
 }
 
 .footer__logo {
@@ -598,10 +517,7 @@
 }
 
 .signature {
-    font-family: Raleway;
-    font-size: 15px;
-    font-weight: 300;
-    line-height: 25px;
+    font: 300 15px/25px Raleway;
     flex-basis: 195px;
 }
 
