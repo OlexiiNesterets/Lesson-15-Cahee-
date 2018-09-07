@@ -43,6 +43,10 @@
     margin-bottom: 224px;
 }
 
+.nav__outer-wrapper {
+    display: flex;
+}
+
 .nav {
     padding: 0;
     list-style: none;
@@ -525,3 +529,19 @@
     color: #ff2b58;
     font-weight: 700;
 }
+
+
+.menu__button {
+    font-size: 15px;
+}
+
+.menu__button-wrapper {
+    align-self: center;
+    padding-left: 15px;
+}
+
+.hidden {
+    display: none;
+}
+
+.on {}
